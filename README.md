@@ -1,7 +1,7 @@
 # AgroSec
 Security, Agriculture and Book
 
-Dashboard - Show s the users profile and USer Data that can be exported at every or any case could ebe monthly or by events trigger.
+Dashboard - Shows the users profile and USer Data that can be exported at every or any case could ebe monthly or by events trigger.
 #Features 
 1. HotSpots 
 2. Points on Security Systems 
