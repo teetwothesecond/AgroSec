@@ -16,7 +16,17 @@
             padding: 0;
             height: 400px;
         }
-
+        .title{
+          font-size: .675em;
+        }
+        .housetag{
+          background: rgba(222, 184, 135, 0.7);
+          color: white;
+          border: 1px solid rgba(222, 184, 135,1);
+          border-radius: 12px;
+          padding: 2px 5px;
+          margin: 5px;
+        }
     </style>
 </head>
 <body>
@@ -112,13 +122,14 @@
                                 <div class="card text-bg-dark">
                                     <img src="./main.jpg" class="card-img" alt="...">
                                     <div class="card-img-overlay">
-                                      <h5 class="card-title">AgroSec Book Store </h5>
+                                      <h5 class="card-title">AgroSec Readers </h5>
                                       <p class="card-text">The more that you read, the more things you will know. The more that you learn, the more places you'll go</p>
                                       <p class="card-text"><small>- Dr. Seuss</small></p>
                                     </div>
                                   </div>
                             </header>
-                            <main class="my-2">
+                            <main class="my-3">
+                                <h3 class="text-muted mt-5">Books</h3>
                                 <div class="row">
                                     <div class="col-4 col-md-4 col-lg-4 col-xl-4">
                                         <div class="card">
@@ -145,11 +156,55 @@
                                         </div>
                                     </div>
                                 </div>
+                                <h3 class="text-muted mt-5">Short Reads</h3>
+                                <hr>
+                                <div class="row">
+                                  <!-- <div><i class="bi bi-arrow-left"></i> </div> -->
+                                  <div class="col-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="head"><img src="./Ellipse 68.png" alt="image" width="20px" height="20px"><small class="title p-2">Agriculture on the Rising</small></div>
+                                    <div class="main"> <a href="#"><strong>Agriculture is the way forward in our time and era</strong></a></div>
+                                    <div class="footer">March 10th, 2024 . 5 min read</div>
+                                  </div>
+                                </div>
                             </main>
                             <footer class="d-flex justify-content-center text-secondary">Copyright @AgroSec 2024</footer> 
                         </div>
                       </div>
-                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                        <h3 class="mt-2">Bring the Love to Residence and Agriculture</h3>
+                        <div class="row">
+                          <div class="col-6 col-md-6 col-lg-4 col-xl-4 mb-2">
+                            <div class="card h-100">
+                              <img src="./house1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">House 45 Apo Resettlement</h5>
+                                <p class="card-text"><small class="housetag">House</small><small class="housetag">Agriculture</small></p>
+                                <a href="#" class="btn btn-primary">Check it</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-6 col-lg-4 col-xl-4">
+                            <div class="card h-100">
+                              <img src="./house1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">House 45 Apo Resettlement</h5>
+                                <p class="card-text"><small class="housetag">House</small><small class="housetag">Agriculture</small></p>
+                                <a href="#" class="btn btn-primary">Check it</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-6 col-md-6 col-lg-4 col-xl-4 mb-2">
+                            <div class="card h-100">
+                              <img src="./house1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">House 45 Apo Resettlement</h5>
+                                <p class="card-text"><small class="housetag">House</small><small class="housetag">Agriculture</small></p>
+                                <a href="#" class="btn btn-primary">Check it</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                       <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
                     </div>
                   </div>
@@ -376,7 +431,8 @@
 }
 
         let chart = anychart.heatMap(getData());
-        chart.title("Fatal Car Crashes in U.S. in 2021 by Time of Day and Day of Week");
+        // Fatal Car Crashes in U.S. in 2021 by Time of Day and Day of Week
+        chart.title("Hotspots showing Security threat areas in the region");
         chart.container('hotspot');
         chart.draw();
     </script>
