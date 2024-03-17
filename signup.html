@@ -28,6 +28,9 @@
             label{
                 color: #2d334a;
             }
+            label.ltoggle{
+                color:#bae8e8;
+            }
             .button{
                 background-color: #ffd803 !important;
                 color: #272343 !important;
@@ -71,11 +74,19 @@
             body.toogled{
                 background-color: #004643;
                 color: #fffffe;
-            }
-            
+            }           
             .togglede{
                 background-color: #004643;
+                color: #fffffe;
             }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a.atoggle{
+                color: #fffffe;
+            }
+
         </style>
     </head>
     <body>
@@ -94,17 +105,18 @@
                     <div class="row justify-content-center align-items-center">
                         <div class="body">
                             <form action="">
-                                <label for="email">Email </label>
+                                <label for="email" id="label">Email </label>
                                 <input type="email" class="form-control" name="email" id="email" required>
-                                <label for="password">Password</label>
+                                <label for="password" id="label1">Password</label>
                                 <input type="password" class="form-control" name="password" id="password"  required>
-                                <button type="submit" class="btn btn-sm button">Sign in</button>
+                                <input type="submit" value="Submit" id="submitBtb">
+                                <!-- <button type="submit" class="btn btn-sm button" onClick="linkNext()">Sign in</button> -->
                             </form>
                         </div>
                         
                     </div>
-                    <div class="footer">
-                        <a href="index.html">AgroSec @2024</a>
+                    <div class="footer d-flex justify-content-center">
+                        <a href="signup.html" id="a">AgroSec @2024</a>
                     </div>
                 </div>
             </div>
@@ -115,9 +127,16 @@
             toggleBtn.addEventListener('click',()=>{
                 document.body.classList.toggle('toogled');
                 toggleBtn.classList.toggle('toggler');
-                document.getElementById('sign').classList.toggle('togglede')
+                document.getElementById('sign').classList.toggle('togglede');
+                document.getElementById('a').classList.toggle('atoggle');
+                document.getElementsById('label').classList.toggle('ltoggle');
                 //Save the Current State of the toggle button
                 localStorage.setItem('toggleState', document.body.classList.contains('toogled')? 'true' : 'false');
+            })
+            document.getElementById('submitBtb').addEventListener('click',(e)=>{
+                e.preventDefault();
+                window.location.href="./index.html"
+                console.log('check')
             })
         </script>
     </body>
