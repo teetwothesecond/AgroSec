@@ -1,0 +1,33 @@
+.Hotspot{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+}
+.title{
+  font-size: .675em;
+}
+.housetag{
+  background: rgba(222, 184, 135, 0.7);
+  color: white;
+  border: 1px solid rgba(222, 184, 135,1);
+  border-radius: 12px;
+  padding: 2px 5px;
+  margin: 5px;
+}
+#container{
+    display: none;
+}
+
+/* Lodge Complain styles */
+.complain-data{
+    width: 100%;
+}
+.lodge-complain{
+    display: flex;
+    justify-content: center;
+}
+.secIssue{
+    display: flex;
+    justify-content: center;
+}
