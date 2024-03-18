@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     height: 400px;
+    background-color: #008000; /* Deep Green */
+    color: #FFFFFF; /* White text color */
 }
 .title{
   font-size: .675em;
