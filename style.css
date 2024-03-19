@@ -20,6 +20,10 @@
 #container{
     display: none;
 }
+a{
+    color: black;
+    text-decoration: none;
+} 
 
 /* Lodge Complain styles */
 .complain-data{
@@ -32,9 +36,8 @@
 .secIssue{
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
-a{
-    color: black;
-    text-decoration: none;
-    
-   } 
+label{
+    display: block;
+}
