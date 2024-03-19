@@ -62,5 +62,6 @@ label{
     color: #272343 !important;
     font-size: 10px;
     font-weight: bold !important;
-    
+    border-radius: 15px;
+    border: none;
 }
