@@ -1,3 +1,11 @@
+/* Colors 
+light Mode - Background #bae8e8
+Dark Mode -
+*/
+/* Try out these medium links later
+https://medium.com/@NorthStarLight/the-future-of-urban-agriculture-vertical-farming-and-rooftop-gardens-3f02d33629a2
+https://medium.com/coinmonks/the-latest-mining-agriculture-news-from-areas-producers-157e13783183
+https://powerafrica.medium.com/from-seeds-to-self-sufficiency-suncultures-solar-powered-revolution-for-women-in-agriculture-885bcbd1eaac */
 .Hotspot{
     width: 100%;
     margin: 0;
@@ -20,7 +28,13 @@
 #container{
     display: none;
 }
-
+.nav-link{
+    color: black !important;
+}
+.nav-link.active{
+    color: #bae8e8 !important;
+    background-color: #004643 !important;
+}
 /* Lodge Complain styles */
 .complain-data{
     width: 100%;
@@ -36,5 +50,12 @@
 a{
     color: black;
     text-decoration: none;
-    
-   } 
+} 
+
+/* Sign in Page Styles */
+.button{
+    background-color: #ffd803 !important;
+    color: #272343 !important;
+    font-size: 10px;
+    font-weight: bold !important;
+}
