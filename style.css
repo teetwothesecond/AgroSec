@@ -18,7 +18,7 @@ https://powerafrica.medium.com/from-seeds-to-self-sufficiency-suncultures-solar-
   font-size: .675em;
 }
 .housetag{
-  background: rgba(222, 184, 135, 0.7);
+  background: #004643;
   color: white;
   border: 1px solid rgba(222, 184, 135,1);
   border-radius: 12px;
@@ -62,6 +62,7 @@ label{
     color: #272343 !important;
     font-size: 10px;
     font-weight: bold !important;
-    border-radius: 15px;
+    border-radius: 10px;
     border: none;
+    padding: 2px 10px;
 }
