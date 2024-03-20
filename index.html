@@ -59,7 +59,7 @@
                                             <div class="card shadow-sm">
                                                 <div class="card-body">
                                                     <div class="card-title">Lodge a Complaint</div>
-                                                    <button class="btn btn-secondary"><i class="bi bi-arrow-right"></i></button>
+                                                    <button class="btn btn-secondary" id="lodgeComplaint"><i class="bi bi-arrow-right"></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,10 +103,10 @@
                                 <footer class="d-flex justify-content-center text-secondary">Copyright @AgroSec 2024</footer> 
                             </div>
                         </div>
-                        <div class="complain-data">
+                        <div class="complain-data" id="complainData">
                           <div class="container">
                             <div class="row">
-                              <div class=""><a href="#"><i class="bi bi-arrow-left"></i></a><h2 class="lodge-complain">Lodge your complains</h2></div>
+                              <div class=""><a href="#" id="backtodashboard"><i class="bi bi-arrow-left"></i></a><h2 class="lodge-complain">Lodge your complains</h2></div>
                               <div class="co-g col-md-6 col-lg-6 mb-2">
                                 <div class="card" id="secIssue">
                                   <div class="card-body">
@@ -115,23 +115,24 @@
                                 </div>
                               </div>
                               <div class="co-g col-md-6 col-lg-6">
-                                <div class="card">
+                                <div class="card" id="Agric-Issues">
                                   <div class="card-body">
                                     <div class="card-title secIssue">Agriculture Issue</div>
                                   </div>
                                 </div>
                               </div>
                               <hr class="my-3">
-                              <div id="Sec-Agri-form-container">
+                              <div id="Sec-Agri-form-container d-flex justify-content-center">
 
                               </div>
+                              <div class="Agri-Form-container"></div>
                             </div>
                           </div>
                         </div>
                         <!--Instead of this maybe when the user click it-->
-                        <div class="take-data">
+                        <!-- <div class="take-data">
                           <button class="btn btn-sm">Downoad Details</button>
-                        </div>
+                        </div> -->
                       </div>
                       <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
                         <div class="carret">
