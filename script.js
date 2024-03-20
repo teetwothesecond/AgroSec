@@ -13,7 +13,7 @@ document.getElementById("secIssue").addEventListener('click', ()=>{
     const security = ['Accident','Theft', 'Car Jacking','Human Trafficking']
      
     container = document.getElementById('Sec-Agri-form-container');
-    label.innerText = 'Incident Title';
+    label.innerText = 'Security Incident Title';
     label.setAttribute('for', 'firstname');
     input.setAttribute('type','text');
     input.setAttribute('class','form-control')
@@ -34,6 +34,7 @@ document.getElementById("secIssue").addEventListener('click', ()=>{
     secForm.appendChild(textArea);
 
     container.appendChild(secForm);
+    document.getElementById('Agri-Form-container').innerHTML = "";
 })
 
 document.getElementById("Agric-Issues").addEventListener('click', ()=>{
@@ -50,7 +51,7 @@ document.getElementById("Agric-Issues").addEventListener('click', ()=>{
     const security = ['Accident','Theft', 'Car Jacking','Human Trafficking']
      
     container = document.getElementById('Agri-Form-container');
-    label.innerText = 'Incident Title';
+    label.innerText = 'Agriculture Incident Title';
     label.setAttribute('for', 'firstname');
     input.setAttribute('type','text');
     input.setAttribute('class','form-control')
@@ -71,6 +72,7 @@ document.getElementById("Agric-Issues").addEventListener('click', ()=>{
     secForm.appendChild(textArea);
 
     container.appendChild(secForm);
+    document.getElementById('Sec-Agri-form-container').innerHTML ="";
 })
 
 document.getElementById('lodgeComplaint').addEventListener('click',()=>{
