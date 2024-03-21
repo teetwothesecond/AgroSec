@@ -26,7 +26,7 @@
                       <h1>AgroSec</h1>
                       <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="bi bi-view-list"></i></button>
                       <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="bi bi-book-half"></i></button>
-                      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-envelope-paper"></i></button>
+                      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="bi bi-house"></i></button>
                       <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="bi bi-gear-wide-connected"></i></button>
                       <a href="signup.html" class="btn btn-success btn-sm mt-5 text-decoration-none">Logout</a>
                     </div>
@@ -59,7 +59,7 @@
                                             <div class="card shadow-sm">
                                                 <div class="card-body">
                                                     <div class="card-title">Lodge a Complaint</div>
-                                                    <button class="btn btn-secondary" id="lodgeComplaint"><i class="bi bi-arrow-right"></i></button>
+                                                    <button class="btn btn-secondary" id="lodgeComplaint"data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-arrow-right"></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -75,7 +75,7 @@
                                             <div class="card shadow-sm">
                                                 <div class="card-body">
                                                     <div class="card-title">Take Your Data With You</div>
-                                                    <button class="btn btn-secondary"><i class="bi bi-arrow-right"></i></button>
+                                                    <button class="btn btn-secondary" id="" tyoe="button"><i class="bi bi-arrow-right"></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -207,7 +207,7 @@
                               <div class="card-body">
                                 <h5 class="card-title">Ikoyi Resettlement</h5>
                                 <p class="card-text"><small class="housetag">House</small><small class="housetag">Agriculture</small></p>
-                                <a href="#" class="btn btn-secondary">Check it</a>
+                                <a href="#" class="btn btn-green btn-sm">Check it</a>
                               </div>
                             </div>
                           </div>
@@ -217,7 +217,7 @@
                               <div class="card-body">
                                 <h5 class="card-title">Kuje, Abuja</h5>
                                 <p class="card-text"><small class="housetag">House</small><small class="housetag">Agriculture</small></p>
-                                <a href="#" class="btn btn-secondary">Check it</a>
+                                <a href="#" class="btn btn-green btn-sm">Check it</a>
                               </div>
                             </div>
                           </div>
@@ -227,7 +227,7 @@
                               <div class="card-body">
                                 <h5 class="card-title">Akure, Ondo</h5>
                                 <p class="card-text"><small class="housetag">House</small><small class="housetag">Agriculture</small></p>
-                                <a href="#" class="btn btn-secondary">Check it</a>
+                                <a href="#" class="btn btn-green btn-sm">Check it</a>
                               </div>
                             </div>
                           </div>
@@ -250,6 +250,25 @@
         </div>
     </div>
     
+
+          <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script>

@@ -25,7 +25,10 @@ https://powerafrica.medium.com/from-seeds-to-self-sufficiency-suncultures-solar-
   padding: 2px 5px;
   margin: 5px;
 }
-#container{
+/* #container{
+    display: none;
+} */
+#complainData{
     display: none;
 }
 .nav-link{
@@ -55,6 +58,7 @@ a{
 label{
     display: block;
 }
+/* End of Complain Style */
 
 /* Sign in Page Styles */
 .button{
@@ -65,4 +69,14 @@ label{
     border-radius: 10px;
     border: none;
     padding: 2px 10px;
+}
+/* House Section style */
+.btn-green{
+    color: white;
+    background-color: #004643;
+    border-radius: 5px;
+}
+.btn-green:hover{
+    color:#004643;
+    background-color: #bae8e8;
 }
