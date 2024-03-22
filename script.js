@@ -36,7 +36,7 @@ document.getElementById("secIssue").addEventListener('click', ()=>{
     container.appendChild(secForm);
     document.getElementById('Agri-Form-container').innerHTML = "";
 })
-
+lodgeComplaint
 document.getElementById("Agric-Issues").addEventListener('click', ()=>{
     const secForm = document.createElement('form');
     const label = document.createElement('label');

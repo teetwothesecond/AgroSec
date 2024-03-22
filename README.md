@@ -12,6 +12,8 @@ Book Section - for People to Read up on Agriculture and Security Areas
 
 Housing Section - for People displaced due to security threats and the likes as well as farmers as the who have their farmeing area far away and need a small plave to stay for the mean time while they work on their farm. The Idea is that we are loosing our farmers to security threats so if we can give them a safe haven or a secure place to stay and farm then we'd most likely solve our problem of starvation and food scarcity and probably increase in food cost which leads to more savings, increase in production and thereby suppressing the Inflation in the country. Because it's when you eat and eatgood food that you have to energy to come up with more creative ideas. When youcome up with this solution build good relationships with all your customers and get to know their background. 
 
+Market Section - 
+This is our market place section it has to do with the buying and selling of produce from Farm. Market place sell farm produce at high quality and low prices really low prices 
 
 Settings and Support Page - Contact Support now to meet your impending issues.
 
