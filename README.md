@@ -17,7 +17,13 @@ This is our market place section it has to do with the buying and selling of pro
 
 Settings and Support Page - Contact Support now to meet your impending issues.
 
-Setting Section - For the user profile settings and other changes that need to be made, also a support session 1.Account/Profile 2.Support/Help 3.App Language 4 Notifications
+Setting Section - For the user profile settings and other changes that need to be made, also a support session 1.Account/Profile (turn on Live Location) 2.Support/Help 3.App Language 4 Notifications
+
+Feature 2
+Intergation with Hardware
+Integration with Backend
+Integration with AI and Data Analytics or Engineering
+
 - In the course of the app development I saw the need for other tech fields which means they are not to be disregarded, the essence of the user-research and user design cannot be understated as you have seen in the build up of the application 
 the security aspect the high perception and information from the cyberSecurity experts would have provided a better way to secure and represent the data to our users. 
 - Then the data analyst to show us the better way to best represent data that won't be confusing to the user
