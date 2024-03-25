@@ -1,5 +1,6 @@
 console.log("Checks");
 document.getElementById("secIssue").addEventListener('click', ()=>{
+    
     const secForm = document.createElement('form');
     const label = document.createElement('label');
     const input =  document.createElement('input');
@@ -9,7 +10,9 @@ document.getElementById("secIssue").addEventListener('click', ()=>{
     const timestampInput = document.createElement('input')
     const selectLabel = document.createElement('label');
     const select = document.createElement('select');
-    const textArea = document.createElement('textarea')
+    const textAreaLAbel = document.createElement('label')
+    const textArea = document.createElement('textarea');
+    const submitBtn = document.createElement('button');
     
     const security = ['Accident','Theft', 'Car Jacking','Human Trafficking']
      
@@ -32,9 +35,13 @@ document.getElementById("secIssue").addEventListener('click', ()=>{
     severityInput.setAttribute('type','number');
     severityInput.setAttribute('class','form-control');
     secForm.appendChild(severity);
-    secForm.apppendChild(severityInput);
+    secForm.appendChild(severityInput);
+    selectLabel.innerText = 'What security threats have you faced locally'
     secForm.appendChild(selectLabel);
     secForm.appendChild(select);
+    textAreaLAbel.innerText = 'Give a Brief Description'
+    secForm.appendChild(textAreaLAbel);
+
     secForm.appendChild(textArea);
 
     container.appendChild(secForm);
