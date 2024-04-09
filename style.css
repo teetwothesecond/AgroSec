@@ -80,7 +80,15 @@ label{
     color:#004643;
     background-color: #bae8e8;
 }
+.dashboard{
+    position: relative;
+}
+.books{
+    position: relative;
+}
 footer{
+    position: absolute;
+    bottom: 0;
     background-color: #004643;
     color: #bae8e8;
     width: 100%;
