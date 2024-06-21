@@ -1,2 +1,2 @@
 This is an Agricultural Securtiy product - Keeping our Farmers Safe one step at a time
-- Dashboard contains the unique feature that keeps you ahead of the crowd with weather updates, hotspots and Lodge a complaint
+- Dashboard contains the unique feature that keeps you ahead of the crowd with weather updates, hotspots and Lodge a complaint ***The bell notification icon can be linked with an off-canvas***

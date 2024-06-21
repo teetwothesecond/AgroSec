@@ -159,3 +159,14 @@ document.getElementById('reads').addEventListener('click', (e)=>{
     })
     
 })
+
+
+document.getElementById('profileImgdropdown').addEventListener('click', (e)=>{
+    e.preventDefault();
+    console.log('yes')
+    let currentState = 1;
+    let div = document.createElement('div');
+    div.style = 'width:100px; height: 100px; background: white; color: black;position: absolute; z-index: 1000';
+    document.getElementById('profileImgdropdown').appendChild(div)
+    console.log('no')
+})

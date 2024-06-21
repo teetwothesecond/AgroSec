@@ -1,0 +1,2 @@
+***Note One***
+So while building the dashboard profile section I tried to create a drop down when you click on the image but  noticed it was going to overshadow the content of the Lodge complainso instead I am lookng for another thing to make the profile do. 
